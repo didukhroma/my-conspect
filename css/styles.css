@@ -1,0 +1,79 @@
+/*переменние*/
+:root {
+  --main-font-family: "Roboto", sans-serif;
+  --secondary-font-family: "Raleway", sans-serif;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --icon-color: #afb1b8;
+  --white-color: #ffffff;
+  --time: 250ms;
+  --function-time: cubic-bezier(0.4, 0, 0.2, 1);
+}
+/*----------------------------------------------------------*/
+/*======  INDEX  ======*/
+/*----------------------------------------------------------*/
+/*======  MAIN  ======*/
+/*обнуление паддингов и маржинов*/
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  /*outline: 1px solid tomato;*/
+}
+/*общие стили*/
+.page-body {
+  margin: 0 auto;
+  font-family: var(--main-font-family);
+  letter-spacing: 0.03em;
+}
+/*скриваю точки списка + сбрасиваю маржини списков*/
+.list {
+  list-style: none;
+}
+/*нижнее подчеркивание ссилок*/
+.link {
+  display: block;
+  text-decoration: none;
+}
+/*центрирование контента*/
+.container {
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 1200px;
+}
+/*отступ картинок*/
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+/*флекс контейнер*/
+.flexbox {
+  display: flex;
+}
+/*скривание заголовков*/
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+}
+/*
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);  /- IE6, IE7 - /
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+*/
