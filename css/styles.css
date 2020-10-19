@@ -1,17 +1,8 @@
 /*переменние*/
 :root {
   --main-font-family: "Roboto", sans-serif;
-  --secondary-font-family: "Raleway", sans-serif;
-  --primary-text-color: #212121;
-  --secondary-text-color: #757575;
-  --accent-color: #2196f3;
-  --icon-color: #afb1b8;
-  --white-color: #ffffff;
-  --time: 250ms;
-  --function-time: cubic-bezier(0.4, 0, 0.2, 1);
+  --secondary-font-family: "Sansita+Swashed", sans-serif;
 }
-/*----------------------------------------------------------*/
-/*======  INDEX  ======*/
 /*----------------------------------------------------------*/
 /*======  MAIN  ======*/
 /*обнуление паддингов и маржинов*/
@@ -20,7 +11,7 @@
 *::after {
   padding: 0;
   margin: 0;
-  /*outline: 1px solid tomato;*/
+  outline: 1px solid black;
 }
 /*общие стили*/
 .page-body {
@@ -77,3 +68,17 @@
   overflow: hidden;
 }
 */
+h1 {
+  text-align: center;
+  font-family: var(--secondary-font-family);
+  font-size: 50px;
+  font-weight: 700px;
+}
+.section {
+  width: 100%;
+  padding: 40px 0px;
+  background-color: tomato;
+}
+.list__link {
+  color: #ffffff;
+}
